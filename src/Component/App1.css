@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+ .navbar-list{
+  background-color: black;
+  color: white;
+  display: flex;
+  height: 70px;
+  justify-content: space-around;
+  align-items: center;
+ }
+ .input-list{
+  border: none;
+  outline: none;
+  background: transparent;
+  border: 1px gray solid;
+  border-radius: 5px;
+ }
+ ::placeholder{
+  color: azure;
+  text-align: center;
+ }
+  .order-list{
+    background-color:gray ;
+    color: white;
+  }
+  .order-list ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    height: 60px;
+    align-items: center;
+  }
+.ac-date{
+  display: flex;
+}
+.data-ac{
+  border: 1px gray solid;
+  padding: 10x;
+  margin: 10px;
+  border-radius: 5px;
+}
+.acpages-date{
+  display: flex;
+ padding: 5px;
+}
+.user-checkbox{
+  padding: 10px;
+}
+.link-page{
+  color: white;
+  text-decoration: none ;
+}
+.link-page:hover{
+  color: rgb(141, 21, 41);
+}
+.data-ac{
+  padding: 10px;
+}
+.page-display{
+  display: flex;
+}
+.input-page{
+  padding: 5px;
+  margin:5px
+}
+.user-checkbox{
+  border: 1px black solid;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 5px;
+}
